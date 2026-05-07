@@ -94,10 +94,26 @@
 .c3{
     width: 600px;
     height: 300px;
-
 }
-
-
+.sec3{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.d1{
+    width: 500px;
+    height: 500px;
+}
+.img1{
+    width: 600px;
+    height: 600px;
+}
+.d2{
+    width: 400px;
+    height: 400px;
+}
 
 
 
@@ -137,6 +153,12 @@
             flex-wrap: wrap;
             text-align: center;
         }
+    }
+    .sec3{
+        width: 100%;
+        height: 1200px;
+        flex-wrap: wrap;
+        text-align: center;
     }
     
 }
